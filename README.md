@@ -6,6 +6,7 @@ I will try to keep this repo updated.
 ![image](https://i.imgur.com/kYG6NYY.png)
 
 # Dependencies 
+(some of them need to be downloaded from AUR)  
 ttf-weather-icons
 ttc-iosevka
 ttf-dejavu
