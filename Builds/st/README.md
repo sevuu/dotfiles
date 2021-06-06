@@ -1,3 +1,5 @@
+cloned from https://github.com/randoragon/st
+
 # st - suckless terminal
 
 My build of st, with focus on productivity and keyboard-driven workflow.
