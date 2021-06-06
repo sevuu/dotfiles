@@ -1,11 +1,11 @@
-# dotfiles
+# Description
 My dotfiles just in case if I will ever need to reinstall my os.  It's extremely messy and it's not anything special as I dont really tweak everything to the limit, but I hope someone will find these useful.  
 I will try to keep this repo updated.  
 
-# screenshot
+# Screenshot
 ![image](https://i.imgur.com/kYG6NYY.png)
 
-# dependencies 
+# Dependencies 
 ttf-weather-icons
 ttc-iosevka
 ttf-dejavu
