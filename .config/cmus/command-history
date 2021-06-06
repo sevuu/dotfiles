@@ -1,3 +1,6 @@
+sort
+rand
+help
 colorscheme green
 colorscheme jellybeans
 colorscheme zenburn
@@ -13,5 +16,4 @@ rm
 delete
 remove
 q
-help
 save

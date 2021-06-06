@@ -3,9 +3,10 @@
 
 # Path to your oh-my-zsh installation.
 export ZSH="/home/rodi/.oh-my-zsh"
-
+export EDITOR="nvim"
 alias vim="nvim"
-
+alias osukill="~/.local/bin/osukill"
+alias osu="~/.local/bin/osu"
 alias lg="lazygit"
 alias config='/usr/bin/git --git-dir=$HOME/.dotfiles/ --work-tree=$HOME'
 # Set name of the theme to load --- if set to "random", it will
