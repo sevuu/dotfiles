@@ -1,0 +1,6 @@
+#!/bin/sh
+
+file="$(mktemp -p /tmp st-script-editcontent.XXXXX)"
+cat - >"$file"
+st -e "$EDITOR" -- "$file"
+rm -- "$file"
