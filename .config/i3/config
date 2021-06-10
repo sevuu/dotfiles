@@ -358,13 +358,15 @@ bindsym $mod+Shift+o mode "[k]ill polybar, [s]tart polybar, [r]estart"
 
 bindsym --release Mod4+Shift+e exec grabc | xclip -selection clipboard
 
-bindsym $mod+Shift+i exec i3lock -i ~/wallpapers/pexels-cátia-matos-1072179.jpg
+bindsym --release $mod+Shift+i exec slock
 
 bindsym Mod4+Shift+s exec ~/Scripts/screenshot.sh
 
 bindsym $mod+Shift+m exec mpv av://v4l2:/dev/video0 --profile=low-latency --untimed
 
 bindsym Print exec maim -i $(xdotool getactivewindow) | xclip -selection clipboard -t image/png
+
+bindsym $mod+Shift+f exec firefox
 
 exec --no-startup-id sudo rmmod hid-uclogic
 exec --no-startup-id nitrogen --restore

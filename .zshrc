@@ -2,6 +2,7 @@
 # export PATH=$HOME/bin:/usr/local/bin:$PATH
 
 # Path to your oh-my-zsh installation.
+export PATH=$PATH:~/.local/bin
 export ZSH="/home/rodi/.oh-my-zsh"
 export EDITOR="nvim"
 alias vim="nvim"
