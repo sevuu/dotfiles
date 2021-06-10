@@ -7,7 +7,7 @@ I will try to keep this repo updated.
 
 # Dependencies 
 (some of them need to be downloaded from AUR)  
-ttf-weather-icons
+`yay -S ttf-weather-icons
 ttc-iosevka
 ttf-dejavu
 neovim
@@ -19,5 +19,5 @@ i3wm
 grabc
 i3lock
 maim
-xclip  
+xclip`  
 https://github.com/kamek-pf/polybar-forecast for weather icons on polybar
