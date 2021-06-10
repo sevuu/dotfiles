@@ -19,4 +19,6 @@ i3wm
 grabc
 maim
 xclip`  
-https://github.com/kamek-pf/polybar-forecast for weather icons on polybar
+https://github.com/kamek-pf/polybar-forecast for weather icons on polybar.  
+  
+In order to install programs from **./Builds** directory you just need to run `sudo make clean install` in each folder
