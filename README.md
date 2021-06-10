@@ -17,7 +17,6 @@ picom
 nitrogen
 i3wm
 grabc
-i3lock
 maim
 xclip`  
 https://github.com/kamek-pf/polybar-forecast for weather icons on polybar
