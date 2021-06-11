@@ -15,7 +15,7 @@ cmus
 polybar
 picom
 nitrogen
-i3wm
+i3
 grabc
 maim
 xclip`  
