@@ -11,7 +11,6 @@ I will try to keep this repo updated.
 ttc-iosevka
 ttf-dejavu
 neovim
-cmus
 polybar
 picom
 nitrogen
