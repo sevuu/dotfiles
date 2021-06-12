@@ -368,7 +368,6 @@ bindsym Print exec maim -i $(xdotool getactivewindow) | xclip -selection clipboa
 
 bindsym $mod+Shift+f exec firefox
 
-exec --no-startup-id sudo rmmod hid-uclogic
 exec --no-startup-id nitrogen --restore
 exec --no-startup-id nvidia-settings --load-config-only
 exec --no-startup-id picom -c
