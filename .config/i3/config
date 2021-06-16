@@ -346,7 +346,7 @@ mode "[k]ill polybar, [s]tart polybar, [r]estart"{
 
   bindsym k exec killall polybar
   bindsym s exec polybar topbar1 ; exec polybar topbar ; mode "default"
-  bindsym r exec killall polybar && polybar topbar1 && polybar topbar ; mode "default"
+  bindsym r exec killall polybar && polybar topbar1 &&sleep 0.3&& polybar topbar ; mode "default"
   bindsym Escape mode "default"
 
   bindsym Return mode "default"
@@ -366,7 +366,7 @@ bindsym $mod+Shift+m exec mpv av://v4l2:/dev/video0 --profile=low-latency --unti
 
 bindsym Print exec maim -i $(xdotool getactivewindow) | xclip -selection clipboard -t image/png
 
-bindsym $mod+Shift+f exec firefox
+bindsym $mod+Shift+f exec chromium
 
 exec --no-startup-id nitrogen --restore
 exec --no-startup-id nvidia-settings --load-config-only

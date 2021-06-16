@@ -25,6 +25,9 @@ inoremap {<CR> {<C-o>o}<C-o>O
 
 autocmd filetype c nnoremap <F4> :w <bar> exec '!gcc '.shellescape('%').' -o '.shellescape('%:r').' && ./'.shellescape('%:r')<CR>
 autocmd filetype cpp nnoremap <F4> :w <bar> exec '!g++ '.shellescape('%').' -o '.shellescape('%:r').' && ./'.shellescape('%:r')<CR>
+autocmd FileType python map <buffer> <F4> :w<CR>:exec '!python3' shellescape(@%, 1)<CR>
+autocmd FileType python imap <buffer> <F4> <esc>:w<CR>:exec '!python3' shellescape(@%, 1)<CR>
+
 
 set title
 set bg=light
