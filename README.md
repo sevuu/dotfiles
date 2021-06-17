@@ -4,6 +4,7 @@ I will try to keep this repo updated.
 
 # Screenshot
 ![image](https://i.imgur.com/kYG6NYY.png)
+(started using bspwm about a week after taking this screenshot but it looks exactly the same so i cba taking another one)
 
 # Dependencies 
 (some of them need to be downloaded from AUR)  
