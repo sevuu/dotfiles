@@ -8,7 +8,9 @@ super + Return
 
 # program launcher
 super + d
-	dmenu_run
+	j4-dmenu-desktop
+#	dmenu_run
+#	rofi -show drun -theme Monokai
 
 # make sxhkd reload its configuration files:
 super + Escape
@@ -22,6 +24,9 @@ super + shift + f
 super + shift + s
 	~/Scripts/screenshot.sh
 
+# file manager
+super + shift + m
+	pcmanfm
 #
 # bspwm hotkeys
 #
@@ -112,8 +117,8 @@ super + {o,i}
 #super + {_,shift + }{1-9,0}
 #	bspc {desktop -f,node -d} '^{1-9,10}'
 
-super + {_,shift + }{1,2,3,4,5,6}
-    bspc {desktop -f,node -d} {1,2,3,4,5,6}
+super + {_,shift + }{1,2,3,4,5,6,7,8,9,10}
+    bspc {desktop -f,node -d} {1,2,3,4,5,6,7,8,9,10}
 
 #
 # preselect
