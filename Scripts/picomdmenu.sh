@@ -1,11 +1,6 @@
 #!/bin/bash
-#
-# a simple dmenu session script
-#
-###
-
 DMENU='dmenu'
-choice=$(echo -e "kill\nstart" | $DMENU)
+choice=$(echo -e "kill\nstart" | $DMENU -p "Picom")
 
 case "$choice" in
   kill) killall picom & ;;
