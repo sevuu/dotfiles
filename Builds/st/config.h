@@ -5,9 +5,9 @@
  *
  * font: see http://freedesktop.org/software/fontconfig/fontconfig-user.html
  */
-static char *font = "iosevka:pixelsize=16:antialias=true:autohint=true";
+static char *font = "Terminus:pixelsize=17:antialias=true:autohint=true";
 static char *font2[] = {
-    "Twitter Color Emoji:pixelsize=16:antialias=true:autohint=true",
+    "Twitter Color Emoji:pixelsize=17:antialias=true:autohint=true",
 };
 
 static int borderpx = 2;

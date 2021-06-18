@@ -27,6 +27,14 @@ super + shift + s
 # file manager
 super + shift + m
 	pcmanfm
+
+# raise volume
+XF86AudioRaiseVolume
+	pactl set-sink-volume @DEFAULT_SINK@ +5%
+
+# lower volume
+XF86AudioLowerVolume
+	pactl set-sink-volume @DEFAULT_SINK@ -5%
 #
 # bspwm hotkeys
 #
