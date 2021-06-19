@@ -39,6 +39,10 @@ XF86AudioRaiseVolume
 # lower volume
 XF86AudioLowerVolume
 	pactl set-sink-volume @DEFAULT_SINK@ -5%
+
+# slock
+super + shift + i
+	slock
 #
 # bspwm hotkeys
 #

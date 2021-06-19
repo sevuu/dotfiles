@@ -356,20 +356,20 @@ mode "[k]ill polybar, [s]tart polybar, [r]estart"{
 
 bindsym $mod+Shift+o mode "[k]ill polybar, [s]tart polybar, [r]estart"
 
-bindsym --release Mod4+Shift+e exec grabc | xclip -selection clipboard
-
-bindsym --release $mod+Shift+i exec slock
-
-bindsym Mod4+Shift+s exec ~/Scripts/screenshot.sh
-
-bindsym $mod+Shift+m exec mpv av://v4l2:/dev/video0 --profile=low-latency --untimed
-
-bindsym Print exec maim -i $(xdotool getactivewindow) | xclip -selection clipboard -t image/png
-
-bindsym $mod+Shift+f exec chromium
-
-exec --no-startup-id nitrogen --restore
-exec --no-startup-id nvidia-settings --load-config-only
-exec --no-startup-id picom -c
-exec --no-startup-id polybar topbar1
-exec --no-startup-id polybar topbar
+#bindsym --release Mod4+Shift+e exec grabc | xclip -selection clipboard
+#
+#bindsym --release $mod+Shift+i exec slock
+#
+#bindsym Mod4+Shift+s exec ~/Scripts/screenshot.sh
+#
+#bindsym $mod+Shift+m exec mpv av://v4l2:/dev/video0 --profile=low-latency --untimed
+#
+#bindsym Print exec maim -i $(xdotool getactivewindow) | xclip -selection clipboard -t image/png
+#
+#bindsym $mod+Shift+f exec chromium
+#
+#exec --no-startup-id nitrogen --restore
+#exec --no-startup-id nvidia-settings --load-config-only
+#exec --no-startup-id picom -c
+#exec --no-startup-id polybar topbar1
+#exec --no-startup-id polybar topbar
