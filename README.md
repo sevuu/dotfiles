@@ -3,7 +3,7 @@ My dotfiles just in case I will ever need to reinstall my os.  It's extremely me
 I will try to keep this repo updated.
 
 # Screenshot
-![image](https://i.imgur.com/kYG6NYY.png)
+![image](https://i.imgur.com/tilpndc.png)
 (started using bspwm about a week after taking this screenshot but it looks exactly the same so i cba taking another one)
 
 # Dependencies
