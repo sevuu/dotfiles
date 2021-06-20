@@ -10,6 +10,7 @@ I will try to keep this repo updated.
 (some of them need to be downloaded from AUR)
 `yay -S ttf-weather-icons
 ttc-iosevka
+terminus-font
 ttf-dejavu
 neovim
 polybar
@@ -19,7 +20,6 @@ i3
 bspwm
 sxhkd
 j4-dmenu-desktop
-grabc
 maim
 xclip`
 
