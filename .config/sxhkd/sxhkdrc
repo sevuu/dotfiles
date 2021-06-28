@@ -20,9 +20,21 @@ super + Escape
 super + shift + f
 	chromium
 
+# webcam
+super + shift + n
+	mpv av://v4l2:/dev/video0 --profile=low-latency --untimed
+
 # screenshot
 super + shift + s
 	~/Scripts/screenshot.sh
+
+# clipmenu
+super + v
+	clipmenu
+
+# color picker
+super + e
+	 grabc | xclip -selection clipboard
 
 # screenshot of current window
 Print
