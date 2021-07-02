@@ -17,7 +17,8 @@ bspc config focus_follows_pointer true
 #bspc rule -a Chromium desktop='^2'
 #bspc rule -a mplayer2 state=floating
 # bspc rule -a Kupfer.py focus=on
-bspc rule -a Galculator state=floating
+bbspc rule -a Galculator state=floating
+bspc rule -a scrcpy state=floating
 bspc rule -a osu\! state=fullscreen
 bspc rule -a Screenkey manage=off
 bspc rule -a mpv state=pseudo_tiled
